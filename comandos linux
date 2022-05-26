@@ -1,4 +1,8 @@
 
+URL
+https://www.solvetic.com/tutoriales/article/3693-encontrar-carpetas-archivos-que-ocupan-mas-espacio-linux/
+
+
 Para encontrar los directorios de mayor tamaño a nivel general del sistema ejecutaremos el siguiente comando:
 du -a | sort -n -r | head -n 7
 
