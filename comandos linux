@@ -1,0 +1,7 @@
+
+Para encontrar los directorios de mayor tamaño a nivel general del sistema ejecutaremos el siguiente comando:
+du -a | sort -n -r | head -n 7
+
+Si por razones de control o gestión deseamos conocer en detalle el tamaño de dichos directorios, ya sea en KB, MB o GB, ejecutaremos el siguiente comando:
+
+du -hs * | sort -rh | head -4 
